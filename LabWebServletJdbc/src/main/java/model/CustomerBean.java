@@ -13,6 +13,7 @@ public class CustomerBean {
 	private java.util.Date birth;
 	
 	//aaa
+	//bbb
 	
 	@Override
 	public String toString() {
