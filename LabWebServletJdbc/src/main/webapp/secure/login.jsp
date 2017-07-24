@@ -17,12 +17,12 @@
 <form action="<c:url value="/secure/login.controller" />" method="get">
 <table>
 	<tr>
-		<td>ID : </td>
+		<td>UID : </td>
 		<td><input type="text" name="username" value="${param.username}"></td>
 		<td><span class="error">${errors.username}</span></td>
 	</tr>
 	<tr>
-		<td>PWD : </td>
+		<td>PASSWORD : </td>
 		<td><input type="text" name="password" value="${param.password}"></td>
 		<td><span class="error">${errors.password}</span></td>
 	</tr>
