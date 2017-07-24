@@ -16,8 +16,10 @@
 <table>
 	<thead>
 	<tr>
+
 		<th>ID</th>
 		<th>Name</th>
+
 		<th>Price</th>
 		<th>Make</th>
 		<th>Expire</th>

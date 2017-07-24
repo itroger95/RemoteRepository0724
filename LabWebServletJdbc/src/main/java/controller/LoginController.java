@@ -1,5 +1,8 @@
 package controller;
 
+
+
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,7 +22,11 @@ import model.CustomerService;
 public class LoginController {
 	@Autowired
 	private CustomerService customerService;
-	
+
+
+
+//1
+
 	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
 	public String method(String username, String password, Model model) {
 //接收資料
