@@ -14,6 +14,7 @@ public class CustomerBean {
 	
 	//aaa
 	//bbb
+	//ccc
 	
 	@Override
 	public String toString() {
