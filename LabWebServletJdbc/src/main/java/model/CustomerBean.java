@@ -11,6 +11,13 @@ public class CustomerBean {
 	private byte[] password;
 	private String email;
 	private java.util.Date birth;
+
+	
+	//aaa
+	//bbb
+	//ccc
+	
+
 	@Override
 	public String toString() {
 		return "{"+custid+","+email+","+birth+"}";
