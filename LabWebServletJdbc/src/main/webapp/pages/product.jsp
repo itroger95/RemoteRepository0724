@@ -30,6 +30,7 @@ function clearForm() {
 <form action="<c:url value="/pages/product.controller"/>" method="get">
 <table>
 	<tr>
+<<<<<<< HEAD
 		<td>ID : </td>
 		<td><input type="text" name="id" value="${param.id}"></td>
 		<td>${errors.id}</td>

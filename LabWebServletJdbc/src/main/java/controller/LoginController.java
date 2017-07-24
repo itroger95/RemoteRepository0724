@@ -1,11 +1,5 @@
 package controller;
 
-
-// test 1
-// Test 3
-//test2
-
-//Final test
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,7 +19,13 @@ import model.CustomerService;
 public class LoginController {
 	@Autowired
 	private CustomerService customerService;
-	
+
+
+
+	//0000000000000000000000000
+
+
+>>>>>>> branch 'master' of https://github.com/itroger95/RemoteRepository0724
 	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
 	public String method(String username, String password, Model model) {
 //接收資料
