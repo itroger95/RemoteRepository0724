@@ -19,7 +19,7 @@ import model.CustomerService;
 public class LoginController {
 	@Autowired
 	private CustomerService customerService;
-	
+
 	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
 	public String method(String username, String password, Model model) {
 //接收資料
