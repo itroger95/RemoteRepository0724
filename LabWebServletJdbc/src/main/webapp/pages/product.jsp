@@ -30,23 +30,24 @@ function clearForm() {
 <form action="<c:url value="/pages/product.controller"/>" method="get">
 <table>
 	<tr>
-		<td>UserID : </td>
+
+		<td>編碼 : </td>
 		<td><input type="text" name="id" value="${param.id}"></td>
 		<td>${errors.id}</td>
 	</tr>
 	<tr>
-		<td>UserName : </td>
+		<td>名字 : </td>
 		<td><input type="text" name="name" value="${param['name']}"></td>
 		<td></td>
 	</tr>
 
 	<tr>
-		<td>Price : </td>
+		<td>價錢 : </td>
 		<td><input type="text" name="price" value="${param.price}"></td>
 		<td>${errors["price"]}</td>
 	</tr>
 	<tr>
-		<td>userMake : </td>
+		<td>日期 : </td>
 		<td><input type="text" name="make" value="${param.make}"></td>
 		<td>${requestScope["errors"].make}</td>
 	</tr>
