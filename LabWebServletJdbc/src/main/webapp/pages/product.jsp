@@ -32,6 +32,7 @@ function clearForm() {
 	<tr>
 <<<<<<< HEAD
 		<td>ID : </td>
+<<<<<<< HEAD
 		<td><input type="text" name="id" value="${param.id}"></td>
 		<td>${errors.id}</td>
 	</tr>
@@ -51,23 +52,28 @@ function clearForm() {
 =======
 
 		<td>編碼 : </td>
+=======
+
 		<td><input type="text" name="id" value="${param.id}"></td>
 		<td>${errors.id}</td>
 	</tr>
 	<tr>
-		<td>名字 : </td>
+		<td>Name : </td>
 		<td><input type="text" name="name" value="${param['name']}"></td>
 		<td></td>
 	</tr>
 
 	<tr>
-		<td>價錢 : </td>
+		<td>Price : </td>
 		<td><input type="text" name="price" value="${param.price}"></td>
 		<td>${errors["price"]}</td>
 	</tr>
 	<tr>
+
 		<td>日期 : </td>
->>>>>>> branch 'master' of https://github.com/itroger95/RemoteRepository0724
+
+		<td>Make : </td>
+
 		<td><input type="text" name="make" value="${param.make}"></td>
 		<td>${requestScope["errors"].make}</td>
 	</tr>
