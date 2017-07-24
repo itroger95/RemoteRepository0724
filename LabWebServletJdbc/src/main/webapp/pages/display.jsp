@@ -45,7 +45,7 @@
 	</tbody>
 </table>
 </c:if>
-<h3>YOOOOOOOOOOOOO</h3>
+<h3>YOOOOOOOOOOOOOoo</h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Product Table</a></h3>
 </body>
 </html>
