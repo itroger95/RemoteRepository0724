@@ -41,12 +41,12 @@ function clearForm() {
 	</tr>
 
 	<tr>
-		<td>Price : </td>
+		<td>價錢 : </td>
 		<td><input type="text" name="price" value="${param.price}"></td>
 		<td>${errors["price"]}</td>
 	</tr>
 	<tr>
-		<td>Make : </td>
+		<td>日期 : </td>
 		<td><input type="text" name="make" value="${param.make}"></td>
 		<td>${requestScope["errors"].make}</td>
 	</tr>
