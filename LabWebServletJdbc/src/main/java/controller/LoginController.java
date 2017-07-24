@@ -25,7 +25,7 @@ public class LoginController {
 	//0000000000000000000000000
 
 
->>>>>>> branch 'master' of https://github.com/itroger95/RemoteRepository0724
+
 	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
 	public String method(String username, String password, Model model) {
 //接收資料
